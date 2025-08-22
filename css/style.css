@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* обнулив всі параметри */
+.container {
+  max-width: 800px; 
+  width: 100%;      
+  margin: 0 auto;   
+  padding: 20px;    
+  border: 1px solid black; 
+}
+.fon-head {
+    background-color: rgb(194, 190, 190, 0.5);
+}
+/* 1. Додаю фон (вага селектора становить 10) */
+
+.block-model-test {
+    color: chocolate;
+    font-size: 28px;
+    width: 180px;
+    border: 5px solid green;
+    padding: 15px;
+    margin: 30px;
+    background-color: bisque;
+}
+.block-model-test2 {
+    color: rgb(81, 30, 210);
+    font-size:20px;
+    width: 200px;
+    border: 5px solid rgb(15, 0, 128);
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+div p {
+    color: blueviolet;
+}
+h3 + p{ 
+    color: rgb(30, 0, 139);
+}
+h4 ~ p{ 
+    color: darkcyan;
+}    
+.color_title_h  {
+color: brown;
+}
+.color_title  {
+color: blue;
+}
+.text_nav {
+text-align: center ;
+ }
+.text_nav1 {
+text-align: justify ;
+ }
+.input[type="text"] {
+border: 2px solid blue;
+/* padding: 20px; було авто - помилка, ставлю пікселя- не працює */
+}
+.button {
+    background-color: olive ;
+}
+.button1 {
+    background-color: orange;
+}
+.border-standart {
+    border: 2px solid black;
+}
+.border-indiv_1 {
+    border-top: 2px dotted green;
+    border-bottom: 3px double blue;
+    border-left: 1px solid red;
+    border-right: 4px inset #000;
+    text-align: justify
+}
+.border-indiv_logo_tree {
+    border-top: 2px dotted green;
+    border-bottom: 2px dotted green;
+    border-left: 2px dotted green;
+    border-right: 2px dotted green;
+}
+a[href*=pages] {
+    border: 2px solid brown;
+    color: blue;
+  background-color: aquamarine;
+}
+a[href*=index] {
+    border: 2px solid brown;
+    color: blue;
+  background-color: aquamarine;
+}
+img[src$=png] {
+     border: 2px solid red;
+     background-color: antiquewhite;
+ }
+ button:hover {
+    background-color: blue;
+    color: chartreuse;
+ }
+ #paragraf {
+    color: green;
+    font-size: 20px;
+ } 
+/* 
+ ul li:first-child {
+    color: darkmagenta;
+ }
+ ul li:last-child {
+    color: aquamarine;
+ }
+ ul li:ntn-child(3) {
+    color: violet;
+ } */
+ /* a[href^=pages] {
+    border: 2px solid gray;
+    color: black;
+} */
+ /* .container { */
+  /* max-width: 800px; /* Максимальная ширина контейнера */
+  /* width: 100%;      Ширина по умолчанию, чтобы контейнер занимал всю доступную ширину, пока не достигнет max-width */
+  /* margin: 0 auto;   Выравнивание по центру (необязательно) */
+  /* padding: 20px;    Добавление отступов (необязательно) */
+  /* border: 1px solid black; Добавление рамки (необязательно)} */
+
+/* .secondary-heanding {
+    background-color: olive;
+}
+.side-box {
+    border: 4px solid olivedrab;
+    width: 300px;
+    height: auto;
+    background-color: olive;
+} */
+
+/* footer {
+    border-top: 2px dotted green;
+    border-bottom: 3px double blue;
+    border-left: 1px solid red;
+    border-right: 4px inset #000;
+} */
+
+/* .header {
+    background-image: url("images/logotip_tree.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: aquamarine;
+} */
+
+/* body {
+     border: 4px solid olivedrab;
+    width: auto;
+    height: auto;
+    background-color:grey;
+}  */
+/* p {
+color: blue;
+font-size: 16px;
+} */
+
+/* #forText {
+    color: blueviolet;
+    font-size: 15px;
+} */
+ /* a[href*=registration] {
+    border: 2px solid rgb(64, 66, 66);
+    color: rgb(130, 0, 2);
+  background-color: coral;
+} */

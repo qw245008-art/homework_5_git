@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="fon-head container">  
+    <header class="fon-head">
+        <img class="border-indiv_logo_tree block-model-test2" src="/images/logotip_tree.jpg" alt="logo tree">
+<div class="border-standart">
+    <h1 class="color_title_h block-model-test">VS code</h1>
+    <h3 class="block-model-test2"><br><br>HomeWork 4</h3>
+</div>
+</header>
+<form> <!-- додав form - так як використовую fielsed -->
+ <fieldset>
+ <legend> Навігаційне меню</legend>
+ <nav>
+  <ul>
+    <li> <a title="До реєстрації" href="/pages/regisration.html" target="_blank">Реєстрація та вхід</a> 
+    </li> 
+    <li> <a title="головна" href="/index.html">ГОЛОВНА</a>
+    </li>
+    <li> <a title="для створення форми" href="/pages/form.html">Форма</a>
+    </li>
+  </ul>
+ </nav>
+ </fieldset>
+ </form> 
+<main>
+    <h4 class="color_title_h">Приклади написання</h4>
+<form class="input">
+<fieldset>
+        <legend class="color_title">Особиста інформація</legend>
+        <div>
+            <label>
+                <input 
+                type="text"
+                name="first name" 
+                placeholder="введіть Імʼя"> ІМʼЯ
+            </label>
+        </div>
+        <div>
+            <label>
+                <input 
+                type="number"
+                name="number" 
+                placeholder="номер телефону"> НОМЕР
+            </label>
+        </div>
+        <div>
+            <label>
+                <input 
+                type="email"
+                name="email" 
+                placeholder="ел. пошта"> ПОШТА
+            </label>
+        </div>
+        <div>
+<h4 class="color_title_h">Створення багаторядкового поля</h4>
+</div>
+<!-- кнопка для створення багаторядкового поля -->
+<div class="input">
+    <label for="message">Написати нам листа</label>
+    <textarea id="message" name="message" rows="2" cols="30"> написати нам
+    </textarea>
+</div>
+<h4 class="color_title_h">Приклад кнопки</h4>
+<div>
+    <label>
+    <input class="button1" 
+    type="submit"
+    value="Надіслати"> Полетіли!!!
+</label>
+</div>
+<h4 class="color_title_h">Приклади радіо-кнопки</h4>
+<div class="input">
+    <input 
+    type="radio"
+    name="gender"
+    value="male"> Чоловік
+</div>
+
+<div>
+    <input 
+    type="radio"
+    name="gender"
+    value="female"> Жінка
+</div>
+
+<div>
+    <input 
+    type="checkbox"
+    name="gender"
+    value="male"> Чоловік1
+</div>
+
+<div>
+    <input 
+    type="checkbox"
+    name="gender"
+    value="female"> Жінка1
+</div>
+
+<div>
+    <input 
+    type="radio"
+    name="young-gender"
+    value="female"> Хлопчик
+</div>
+
+<div>
+    <input 
+    type="radio"
+    name="young-gender"
+    value="female"> Дівчинка
+</div>
+<h4 class="color_title_h">Приклад випадаючого календаря</h4>
+<div>
+    <input 
+    type="date"> date
+</div>
+
+<h4 class="color_title_h">Приклад випадаючого списка</h4>
+<div class="input">
+    <label for="frut"> Виберіть фрукт</label>
+    <select name="frut" id="frut">
+        <option value="apple">Яблуко</option>
+        <option value="banana">Банан</option>
+        <option value="orange">Апельсин</option>
+    </select>
+</div>
+    <!-- кнопка варіанет 1 -->
+   <h4 class="color_title_h">Кнопка варіант1</h4>
+   <div>
+    <input class="button1"
+    type="submit"
+    value="Надіслати"> 
+   </div>
+    <!-- кнопка варіант 2 - краще стеріалізувати потім -->
+   <h4 class="color_title_h">Кнопка варіант2</h4>
+   <div>
+    <button class="button1" type="submit">надіслати варіант 2 </button>
+   </div>
+<h4 class="color_title_h">Кнопка очистити дані списку</h4>
+<div>
+     <button class="button1" type="reset"> видалити дані </button>
+</div>
+</fieldset>
+</form>
+</main>
+<footer>
+ <div>
+       <a title="перехід назад" href="/index.html"><img src="/images/picture_lesson.jpeg" id="images_lesson" alt="приклад картинки переходу" width="200">переходимо назад</a>
+    </div>
+    <div>
+   <a href="../index.html"><img src="/images/frog.jpeg" alt="приклад картинки переходу на початком" width="150">на Головну</a>
+      <p> <a href="../index.html#yakir">переходимо до якоря</a><img src="/images/yakir.png" alt="якір" width="50" ></p>
+    </div>
+</footer>
+</body>
+</html>
